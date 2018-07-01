@@ -1,4 +1,4 @@
-package io.yadnyesh.learningspringboot.learningspringboot.spock;
+package io.yadnyesh.learningspringboot.learningspringboot.spock.model;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
