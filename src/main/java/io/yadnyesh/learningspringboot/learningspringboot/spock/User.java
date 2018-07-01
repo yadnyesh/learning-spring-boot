@@ -1,5 +1,14 @@
 package io.yadnyesh.learningspringboot.learningspringboot.spock;
 
-public class User {
+import lombok.Data;
+import lombok.experimental.Accessors;
 
+@Data
+@Accessors(chain = true)
+public class User {
+	
+	private Long id;
+	
+	private String name;
+	
 }
